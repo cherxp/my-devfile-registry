@@ -3,10 +3,9 @@ apiVersion: 1.0.0
 metadata:
   name: xpress
 components:
-  - type: cheEditor
-    reference: >-
-      https://raw.githubusercontent.com/cherxp/my-plugin-registry/master/meta.yaml
-  - type: chePlugin
-    reference: >-
-      https://raw.githubusercontent.com/cherxp/my-plugin-registry/master/meta-mplab-rest-server.yaml
-      
+  -
+    type: cheEditor
+    reference: https://raw.githubusercontent.com/cherxp/my-plugin-registry/master/meta.yaml
+  -  
+    type: chePlugin
+    reference: https://raw.githubusercontent.com/cherxp/my-plugin-registry/master/meta-mplab-rest-server.yaml
