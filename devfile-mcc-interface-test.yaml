@@ -15,4 +15,3 @@ components:
       - name: 'helloworld'
         port: 1234
     mountSources: true
-    
