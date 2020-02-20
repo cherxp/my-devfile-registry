@@ -9,9 +9,12 @@ components:
   -  
     type: dockerimage
     alias: mcc-interface
-    image: 879521958254.dkr.ecr.us-east-1.amazonaws.com/mcc-interface:latest
+    image: 879521958254.dkr.ecr.us-east-1.amazonaws.com/mcc-interface12:latest
     memoryLimit: 1024Mi
     endpoints:
       - name: 'helloworld'
-        port: 1234
+        port: 443
+        attributes:
+           secure: 'false'
+           protocol: ws
     mountSources: true
