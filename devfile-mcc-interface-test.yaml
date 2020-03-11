@@ -7,12 +7,12 @@ components:
     type: cheEditor
     id: eclipse/che-theia/next
   -  
-    type: dockerimage
-    alias: mcc-interface
-    image: 879521958254.dkr.ecr.us-east-1.amazonaws.com/che-devfile-registry20:latest
+  - type: dockerimage
+    alias: workspace-access
+    image: 879521958254.dkr.ecr.us-east-1.amazonaws.com/workspace-access-service1:latest
     memoryLimit: 1024Mi
     endpoints:
-      - name: 'helloworld'
+      - name: 'server'
         port: 443
         attributes:
            secure: 'false'
