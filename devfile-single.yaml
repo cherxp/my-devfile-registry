@@ -5,4 +5,4 @@ metadata:
 components:
   -
     type: cheEditor
-    reference: https://raw.githubusercontent.com/cherxp/my-plugin-registry/master/meta.yaml
+    reference: https://raw.githubusercontent.com/cherxp/my-plugin-registry/master/meta-xpress.yaml
