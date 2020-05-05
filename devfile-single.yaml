@@ -1,7 +1,11 @@
 ---
 apiVersion: 1.0.0
 metadata:
-  name: xpress
+  generateName: xpress-
+projects:
+  - source:
+      type: git
+      location: 'https://github.com/che-samples/cpp-hello-world'
 components:
   -
     type: cheEditor
