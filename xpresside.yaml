@@ -1,0 +1,15 @@
+---
+apiVersion: 1.0.0
+metadata:
+  name: xpress
+projects:
+  -
+    name: cpp-hello-world
+    source:
+      type: git
+      location: 'https://github.com/che-samples/cpp-hello-world'
+components:
+  - type: cheEditor
+    reference: >-
+      https://raw.githubusercontent.com/cherxp/my-plugin-registry/master/xpress-plugin.yaml
+ 
