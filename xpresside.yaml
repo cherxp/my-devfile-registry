@@ -5,5 +5,5 @@ metadata:
 components:
   - type: cheEditor
     reference: >-
-      https://raw.githubusercontent.com/Shashi0838/xpress-meta/master/xpress-meta.yaml
-      
+      https://raw.githubusercontent.com/cherxp/my-plugin-registry/master/xpress-plugin.yaml
+ 
