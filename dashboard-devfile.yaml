@@ -12,7 +12,7 @@ components:
     id: eclipse/che-machine-exec-plugin/0.0.1
   - alias: dash-dev
     type: dockerimage
-    image: localhost:5000/che-dashboard-dev:latest
+    image: 192.168.1.7:5000/che-dashboard-dev:latest
     endpoints:
       - name: dashboard-dev-server
         port: 3000
