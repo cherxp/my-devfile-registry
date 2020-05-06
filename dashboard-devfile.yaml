@@ -3,7 +3,7 @@ metadata:
   name: dashboard-in-che
 components:
   - type: cheEditor
-    reference: https://raw.githubusercontent.com/cherxp/my-plugin-registry/master/meta-xpress.yaml
+    id: eclipse/che-theia/next
   - alias: typescript-plugin
     type: chePlugin
     id: che-incubator/typescript/1.30.2
