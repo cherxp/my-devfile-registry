@@ -1,0 +1,14 @@
+---
+apiVersion: 1.0.0
+metadata:
+  name: xpress
+projects:
+  -
+    name: xpress-discover
+    source:
+      type: git
+      location: 'https://github.com/microchip/xpress-discover'
+components:
+  -
+    type: cheEditor
+    reference: https://raw.githubusercontent.com/cherxp/my-plugin-registry/master/meta-xpress.yaml
