@@ -7,7 +7,7 @@ projects:
     name: xpress-discover
     source:
       type: git
-      location: 'https://github.com/microchip/xpress-discover'
+      location: 'https://microchip.com/xpress-discover'
 components:
   -
     type: cheEditor
