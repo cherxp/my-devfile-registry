@@ -7,7 +7,7 @@ projects:
     name: xpress
     source:
       type: git
-      location: 'https://mplabxpress/exampleproject.git'
+      location: 'https://mplab.xpress.microchip.com/exampleproject.git'
 components:
   - type: cheEditor
     reference: >-
