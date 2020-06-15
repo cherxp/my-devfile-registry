@@ -7,7 +7,7 @@ projects:
     name: xpress
     source:
       type: git
-      location: 'https://mplabxpress/project.git'
+      location: 'https://mplabxpress/exampleproject.git'
 components:
   - type: cheEditor
     reference: >-
