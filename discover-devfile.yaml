@@ -11,4 +11,4 @@ projects:
 components:
   - type: cheEditor
     reference: >-
-      https://raw.githubusercontent.com/Shashi0838/mplabx-meta-yaml/master/meta-xpress-ide-single.yaml
+      https://raw.githubusercontent.com/cherxp/my-plugin-registry/master/meta-xpress.yaml
