@@ -9,3 +9,7 @@ components:
   - type: cheEditor
     reference: >-
       https://raw.githubusercontent.com/cherxp/my-plugin-registry/master/meta-xpress.yaml
+
+  - type: chePlugin
+    reference: >-
+      https://raw.githubusercontent.com/cherxp/my-plugin-registry/master/meta-mcc.yaml
