@@ -19,9 +19,7 @@ components:
     endpoints:
       - name: mcc-view-server
         port: 2000
-         attributes:
+        attributes:
            protocol: http
            secure: 'false'
-           public: 'true'
-           discoverable: 'false'
     memoryLimit: 1536M
