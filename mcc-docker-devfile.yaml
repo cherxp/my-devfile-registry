@@ -22,4 +22,9 @@ components:
         attributes:
            protocol: http
            secure: 'false'
+      - name: mcc-websocket-server
+        port: 30001
+        attributes:
+           protocol: ws
+           secure: 'false'
     memoryLimit: 1536M
