@@ -28,3 +28,5 @@ components:
            protocol: ws
            secure: 'false'
     memoryLimit: 1536M
+    
+    
