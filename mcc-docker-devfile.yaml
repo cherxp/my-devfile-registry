@@ -12,7 +12,7 @@ components:
 
   - alias: mcc
     type: dockerimage
-    image: localhost:5000/xpress-plugin-1:latest
+    image: 228724522458.dkr.ecr.us-west-2.amazonaws.com/mcc/xpress-plugin:latest
     volumes:
       - name: xpressprojects
         containerPath: /home/projects
