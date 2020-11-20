@@ -5,7 +5,7 @@ metadata:
 components:
   - type: cheEditor
     reference: >-
-      https://raw.githubusercontent.com/mplab-xpresside/devfiles-stage/main/meta-mplab-xpresside.yaml
+      https://raw.githubusercontent.com/cherxp/my-plugin-registry/master/xpress-mcc.yaml
 
   - alias: mcc
     type: dockerimage
