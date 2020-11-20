@@ -4,8 +4,7 @@ metadata:
   name: xpress
 components:
   - type: cheEditor
-    reference: >-
-      https://raw.githubusercontent.com/cherxp/my-plugin-registry/master/xpress-mcc.yaml
+    reference: https://raw.githubusercontent.com/cherxp/my-plugin-registry/master/test-xpress.yaml
 
   - alias: mcc
     type: dockerimage
