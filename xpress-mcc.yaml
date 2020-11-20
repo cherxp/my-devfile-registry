@@ -1,18 +1,15 @@
 ---
 apiVersion: 1.0.0
-
 metadata:
   name: xpress
-
 components:
-
   - type: cheEditor
     reference: >-
-      https://raw.githubusercontent.com/cherxp/my-plugin-registry/master/xpress-mcc.yaml
+      https://raw.githubusercontent.com/mplab-xpresside/devfiles-stage/main/meta-mplab-xpresside.yaml
 
   - alias: mcc
     type: dockerimage
-    image: localhost:5000/xpress-plugin-1:latest
+    image: 453345707098.dkr.ecr.us-west-2.amazonaws.com/xpress/dev/mcc20nov:latest
     volumes:
       - name: xpressprojects
         containerPath: /home/projects
@@ -27,4 +24,4 @@ components:
         attributes:
            protocol: ws
            secure: 'false'
-    memoryLimit: 1536M
+    memoryLimit: "4Gi"
