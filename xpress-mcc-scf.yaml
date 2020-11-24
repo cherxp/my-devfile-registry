@@ -1,0 +1,29 @@
+---
+apiVersion: 1.0.0
+metadata:
+  name: xpress
+components:
+  - type: cheEditor
+    https://raw.githubusercontent.com/mplab-xpresside/devfiles-stage/main/meta-mplab-xpresside.yaml
+
+  - type: chePlugin
+    reference: https://raw.githubusercontent.com/cherxp/my-plugin-registry/master/meta-scf.yaml
+
+  - alias: mcc
+    type: dockerimage
+    image: 453345707098.dkr.ecr.us-west-2.amazonaws.com/xpress/dev/mcc:latest
+    volumes:
+      - name: xpressprojects
+        containerPath: /home/projects
+    endpoints:
+      - name: mcc-view-server
+        port: 2000
+        attributes:
+           protocol: http
+           secure: 'false'
+      - name: mcc-websocket-server
+        port: 30001
+        attributes:
+           protocol: ws
+           secure: 'false'
+    memoryLimit: "4Gi"
