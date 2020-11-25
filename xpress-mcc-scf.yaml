@@ -4,10 +4,12 @@ metadata:
   name: xpress
 components:
   - type: cheEditor
-    https://raw.githubusercontent.com/mplab-xpresside/devfiles-stage/main/meta-mplab-xpresside.yaml
+    reference: >-
+      https://raw.githubusercontent.com/mplab-xpresside/devfiles-stage/main/meta-mplab-xpresside.yaml
 
   - type: chePlugin
-    https://raw.githubusercontent.com/cherxp/my-plugin-registry/master/meta-scf.yaml
+    reference: >-
+      https://raw.githubusercontent.com/cherxp/my-plugin-registry/master/meta-scf.yaml
 
   - alias: mcc
     type: dockerimage
