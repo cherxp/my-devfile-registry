@@ -8,7 +8,7 @@ components:
 
   - alias: mcc
     type: dockerimage
-    image: 453345707098.dkr.ecr.us-west-2.amazonaws.com/xpress/dev/mcc20nov:latest
+    image: 453345707098.dkr.ecr.us-west-2.amazonaws.com/xpress/staging/mcc-beta-2.0-rc3:latest
     volumes:
       - name: xpressprojects
         containerPath: /home/projects
