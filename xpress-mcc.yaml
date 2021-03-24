@@ -4,11 +4,11 @@ metadata:
   name: xpress
 components:
   - type: cheEditor
-    reference: https://raw.githubusercontent.com/cherxp/my-plugin-registry/master/test-xpress.yaml
+    reference: https://raw.githubusercontent.com/mplab-xpresside/devfiles-stage/main/meta-mplab-xpresside.yaml
 
   - alias: mcc
     type: dockerimage
-    image: 453345707098.dkr.ecr.us-west-2.amazonaws.com/xpress/stage/mcc-beta-v2.0-rc5-v1:latest
+    image: 453345707098.dkr.ecr.us-west-2.amazonaws.com/xpress/dev/mcc-24mar:latest
     volumes:
       - name: xpressprojects
         containerPath: /home/projects
